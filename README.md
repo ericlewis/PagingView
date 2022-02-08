@@ -6,6 +6,14 @@ This is basically the same as TabView in the paging mode with the index style se
 The major difference is having control over the spacing / margins for items in the scroll view,
 allowing you to create card-like where the next and previous cards can "peek".
 
+## Documentation
+### Configuration
+- `direction`: Horizontal or Vertical. The direction the paging view scrolls in.
+- `margin`: The margin at each end of the list of paging items in the paging direction.
+- `spacing`: The spacing between each paging item in the paging direction.
+- `size`: The size of each item in the paging direction.
+- `constrainedDeceleration`: If true deceleration animations caused by drags may not scroll further than the size of the scroll view in the paging direction.
+
 ## Example
 
 Using TabView:
