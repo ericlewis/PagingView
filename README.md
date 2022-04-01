@@ -1,5 +1,7 @@
 # PagingView
 
+### ⚠️ This relies on internal SwiftUI APIs and is not considered safe for production, use at your own risk! ⚠️
+
 A paging scroll view for SwiftUI, using internal SwiftUI components. 
 
 This is basically the same as TabView in the paging mode with the index style set to never.
